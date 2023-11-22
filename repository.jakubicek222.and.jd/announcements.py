@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Author: JD
+# Author: Jakubicek222
 # Created on: 21.11.2023
 # License: AGPL v.3 https://www.gnu.org/licenses/agpl-3.0.html
 
