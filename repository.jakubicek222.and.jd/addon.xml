@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.jakubicek222.and.jd" name="Jakubicek222 a JD Repozitár" version="0.0.1" provider-name="Jakubicek222, JD">
+    <extension point="xbmc.addon.repository" name="Jakubicek222 a JD Repozitár">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Jakubicek222/repository.jakubicek222.and.jd/master/repository/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Jakubicek222/repository.jakubicek222.and.jd/master/repository/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Jakubicek222/repository.jakubicek222.and.jd/master/repository/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Kodi cache-sk Addons</summary>
+        <description>Doplnky od JD a Jakubicek222.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+    <extension point="xbmc.service" library="announcements.py" />
+</addon>
