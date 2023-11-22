@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-# Author: cache-sk
-# Created on: 2.6.2020
+# Author: JD
+# Created on: 21.11.2023
 # License: AGPL v.3 https://www.gnu.org/licenses/agpl-3.0.html
 
 import time
@@ -14,7 +14,7 @@ except ImportError:
     from urllib.request import urlopen
 
 INTERVAL =  24 * 60 * 60 
-ANNOUNCEMENTS = 'https://raw.githubusercontent.com/cache-sk/kodirepo/master/announcements.json'
+ANNOUNCEMENTS = 'https://raw.githubusercontent.com/Jakubicek222/repository.jakubicek222.and.jd/master/announcements.json'
 LAST = 'last_ann'
 
 if __name__ == '__main__':
