@@ -1,10 +1,10 @@
 # KODI REPOZITÁR
 Kodi repozitár pre doplnky od JD a Jakubicek222.
 Zip stiahnite tu:
-# ADDRESS WAS NOT FOUND
+ __ADDRESS WAS NOT FOUND__
 
 Alebo si pridajte zdroj do kodi:
-# ADDRESS WAS NOT FOUND
+__ADDRESS WAS NOT FOUND__
 
 
 Ale odporúčam vám si stiahnuť XBMC Kodi CZ Repozitář:
