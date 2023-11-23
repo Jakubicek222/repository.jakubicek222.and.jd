@@ -8,7 +8,7 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Kodi cache-sk Addons</summary>
+        <summary>Jakubicek222 a JD Repozitár</summary>
         <description>Doplnky od JD a Jakubicek222.</description>
         <platform>all</platform>
         <assets>
