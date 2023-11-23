@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.jd.stream" version="2.0.0" name="JD TV" provider-name="JD">
+    <requires>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.beautifulsoup4"/>
+        <import addon="inputstream.adaptive"/>
+        <import addon="script.module.m3u8"/>
+        <import addon="script.module.dateutil"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">InformĂˇĹcie</summary>
+        <description lang="en_GB">Sledujte televĂ­­zne kanĂˇĹly online a za nĂ­zku cenu. MĂ´ĹľeĹ vyskĂşĹˇaĹĄ na 7 dnĂ zadarmo.</description>
+        <license>AGPL</license>
+        <forum>not yet</forum>
+        <source></source>
+        <assets>
+        <icon>icon.jpg</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot>resources/screenshots/001.png</screenshot>
+        <screenshot>resources/screenshots/002.png</screenshot>
+        <screenshot>resources/screenshots/003.png</screenshot>
+        <screenshot>resources/screenshots/004.png</screenshot>
+        </assets>
+        <news>
+[B]2.0.0[/B]
+- rozdelenie balickov
+- oprava hevc
+[B]1.0.0[/B]
+- testovanie hevc
+- pridanie full hd
+[B]0.0.1[/B]
+- inicialna verzia
+- nove kanaly
+        </news>
+    </extension>
+</addon>
